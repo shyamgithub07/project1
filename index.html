@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body{
+            margin: 0;
+            background-color: aliceblue;
+        }
+       
+            
+          
+        
+        #s1 img{
+           margin: 0;
+            width: 100%;
+            position: absolute;
+            top: 10px;
+        }
+        #d1 h1{
+            position: relative;
+            color: aliceblue;
+            text-align: center;
+            margin-top: 100px;
+            font-size: 70px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        #d1 a{
+            position: relative;
+            color: aliceblue;
+            bottom:20px;
+            font-size: 27px;
+            left: 33%;
+            text-decoration: none;
+        }
+    
+        #b1{
+            position: relative;
+            text-align: center;
+            border: 2px solid aliceblue;
+            background-color: rgba(0, 0, 255, 0);
+            font-size: 20px;
+            margin-left:10%;
+            bottom: -100px;
+            color: aliceblue;
+            padding: 10px 37px 10px 37px;
+            font-weight: bold;
+            cursor: pointer;
+            
+        }
+        #b1:hover{
+            background-color: black;
+        }
+        
+        #i1{
+            width: 50%;
+            height: 970px;
+            position: absolute;
+            top: 930px;
+            left: 35%;
+        }
+        #i2{
+            position: relative;
+            width: 70%;
+            height: 700px;
+            top: 550px;
+            left:7%;
+        }
+        #d2{
+            display: flex;
+            padding: 7px;
+            justify-content: space-between;
+        
+        }
+      
+        #d3{
+            position: relative;
+            padding: 10px;
+            left:650px;
+            bottom:-250px;
+            transition: transform 1s;
+            cursor: pointer;
+        }
+        #d3:hover{
+            transform: scale(1.1);
+        }
+      
+        #d4{
+            position: relative;
+            padding: 10px;
+            margin-right: 100px;
+            bottom: -250px;
+            transition: transform 1s;
+            cursor: pointer;
+           
+        }
+        #d4:hover{
+            transform: scale(1.1);
+        }
+        #d3 img{
+            width: 100%;
+        }
+        #d4 img{
+            width: 100%;
+        }
+        #d5{
+            display: flex;
+            padding: 7px;
+            justify-content: space-between;
+           
+        }
+        #d6{
+           
+            position: relative;
+            padding: 10px;
+            left: 650px;
+            bottom: -250px;
+            transition: transform 1s;
+            cursor: pointer;
+        }
+        #d6:hover{
+            transform: scale(1.1);
+        }
+        #d7{
+            position: relative;
+            padding: 10px;
+            margin-right: 100px;
+            bottom: -250px;
+            transition: transform 1s;
+            cursor: pointer;
+        }
+        #d7:hover{
+            transform: scale(1.1);
+        }
+        #d6 img{
+            width: 100%;
+        }
+        #d7 img{
+            width: 100%;
+        }
+        #d8 h1{
+            font-size: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            text-decoration:underline;
+        }
+        #s3 img{
+            width: 35%;
+            position: absolute;
+            border: 2px solid white;
+            border-radius: 100%; 
+            margin-left:430px;
+            margin-top: 177px;}
+            /* animation-name: girl; 
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes girl{
+            25%{
+                 
+                 margin-top: 20px;
+            }
+        }*/
+        #d9{
+            display: flex;
+            justify-content: space-between;
+            margin: 130px;
+            position: relative;
+            top: -70px;
+            padding: -120px;
+        }
+        #d10{
+            border: 2px solid  white;
+            padding: 30px;
+            position: relative;
+            background-color:white;
+            text-align: center;
+            color: black;
+            box-shadow: 3px 5px 3px 5px rgba(107, 92, 92, 0.644);
+            
+        }
+        #d11{
+            border: 2px solid  white;
+            padding: 30px;
+            position: relative;
+            background-color:white;
+            text-align: center;
+            color: black;
+            box-shadow: 3px 5px 3px 5px rgba(107, 92, 92, 0.644);;
+        }
+        #d12{
+            border: 2px solid white;
+            padding: 30px;
+            position: relative;
+            background-color:white;
+            text-align: center;
+            color: black;
+            box-shadow: 3px 5px 3px 5px rgba(107, 92, 92, 0.644);
+        }
+        #d9 p{
+            text-align:center;
+        }
+        #d9 h1{
+            text-decoration: underline red;
+        }
+        #d13{
+            
+            position: absolute;
+            margin-top: 300px;
+            background-color:rgb(37, 37, 92) ;
+            height: 1500px;
+         
+            
+        }
+        #d14{
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            margin: 50px;
+            padding: 20px;
+           
+            
+        }
+        .d15{
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            position: relative;
+            text-align: center;
+            padding:20px;
+            top: 700px;
+            margin: 50px;
+            height: 300px;
+            
+        }
+        .d15 h1{
+            font-size: 50px;
+            border: 2px solid rgb(37, 37, 92);
+            border-radius: 100%;
+            background-color: rgb(37, 37, 92);
+            color: white;
+        }
+        .d15 h2{
+            text-decoration: underline rgb(37, 37, 92);
+        }
+        #d16{
+            position: absolute;
+            border: 2px solid #B8BEF0;
+            height: 650px;
+            width: 50%;
+            background-color: #B8BEF0;
+            margin-top: 1000px;
+            left: 90px;
+        }
+        #d17{
+            position: relative;
+            border: 2px solid white;
+            padding: 30px;
+            background-color: white;
+            height: 700px;
+            width: 50%;
+            margin-top: 800px;
+            left: 500px;
+        }
+        #d17 h1{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 57px;
+            font-weight: lighter;
+        }
+        #d17 p{
+            text-align: center;
+            font-size: 30px;
+        }
+        #b2{
+            background-color:rgb(37, 37, 92);
+            color: white;
+            border: 2px solid rgb(37, 37, 92);
+            padding: 15px 37px 15px 37px;
+            text-align: center;
+            font-size: 17px; 
+            cursor: pointer;
+        }
+        #b2:hover{
+            background-color: #6b6f8f;
+        }
+        #d18{
+            position: relative;
+            width: 60%;
+            margin-top: -200px;
+            left: 200px;
+        }
+        #s5 h1{
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: underline black
+        }
+        #d19{
+            display: flex;
+            margin: 50px;
+            padding: 20px;
+            
+        }
+        .d20{
+            border: 2px solid aliceblue ;
+            text-align: justify;
+            height: 270px;
+            margin: 30px;
+            padding: 30px;
+            /* background-color:rgb(37, 37, 92) ; */
+            color:black;
+        }
+        .b3{
+            position: relative;
+            background-color:rgb(37, 37, 92) ;
+            color: whitesmoke;
+            border: 2px solid rgb(37, 37, 92) ;
+            padding: 10px;
+            text-align: center;
+            font-size: 10px;
+            left: 70px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        #s6 h1{
+            font-size: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: underline black;
+            text-align: center;
+        }
+        #d21{
+            position: absolute;
+            border: 2px solid rgb(37, 37, 92) ;
+            height: 730px;
+            width: 330px;
+            background-color:rgb(37, 37, 92) ;
+            left: 60%;
+        }
+        #s6 img{
+            width: 50%;
+            position: relative;
+            left:40%;
+            margin-top: 150px;
+        }
+        #d22{
+            position: relative;
+            border: 2px solid white;
+            height: 300px;
+            width: 300px;
+            background-color: white;
+            padding: 30px;
+            margin-top: -550px;
+            left: 30%;
+
+        }
+        #d22 h2{
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline rgb(37, 37, 92);
+        }
+        #d22 p{
+            font-size: 20px;
+            text-align: center;
+        }
+        #i3{
+            width: 100%;
+            height: 700px;
+            position: absolute;
+            margin-top: 400px;
+        }
+        #d23{
+            position: absolute;
+            border: 2px solid white;
+            background-color: white;
+            height: 200px;
+            width: 500px;
+            padding: 30px;
+            margin-top: 500px;
+            left: 30%;
+        }
+        #d23 h1{
+            font-size: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            text-align: center;
+        }
+        #f1{
+            
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+
+            
+        }
+        #f1 input{
+            flex: 1;
+            border: 2px solid  rgb(37, 37, 92);;
+            height: 42px;
+            outline: 0;
+            margin-left: 20px;
+           
+        }
+        #b4{
+            background: rgb(37, 37, 92);
+            border: 0;
+            outline: 0;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            padding: 15px 30px;
+        }
+        #d24{
+            position: absolute;
+            border: 2px solid aliceblue;
+            background-color: aliceblue;
+            height: 150px;
+            width: 500px;
+            padding: 30px;
+            margin-top: 720px;
+            left: 30%;
+
+        }
+        #d24 h1{
+            font-size: 35px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        #d25 {
+            font-size: 30px;
+            margin-left: 37%;
+        
+        }
+    
+
+        
+
+        
+       
+
+        
+
+        
+
+    </style>
+    </head>
+    <body>
+        <section id="s1">
+            <img src="rpic1.jpg">
+            <div id="d1">
+                <h1>Join Accenture’s <br> virtual program for <br> new
+                    perspectives</h1>
+                <a href="">about us|</a>
+                <a href="">news|</a>
+                <a href="">reviews|</a>
+                <a href="">articles|</a>
+                <a href="">#future</a>
+                <button id="b1">Learn More</button>
+            </div>
+        </section>
+        <section id="s2">
+            <img id="i1" src="rpic2.png">
+            <img id="i2" src="rpic3.jpg">
+            <div id="d2">
+                <div id="d3">
+                    <img  src="rpic4.png">
+                   
+                </div>
+                <div id="d4">
+                    <img src="rpic5.png">
+                    
+                </div>
+            </div>
+            <div id="d5">
+                <div id="d6">
+                    <img src="rpic6.png">
+                   
+                </div>
+                <div id="d7">
+                    <img src="rpic7.png">
+                    
+                </div>
+
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><br><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="s3">
+            <div id="d8">
+                <h1>Technology Of The Future</h1>
+            </div>
+            <img src="rpic8.jpg">
+            <div id="d9">
+                <div id="d10">
+                    <h1>Machine Learning</h1>
+                    <p>Sample text. Click to select the text box. <br> Click
+                        again or
+                        double click to <br> start editing the text.</p>
+                </div>
+                <div id="d11">
+                    <h1>Edge Computing</h1>
+                    <p>Sample text. Click to select the text box. <br> Click
+                        again or
+                        double click to <br>start editing the text.</p>
+                </div>
+                <div id="d12">
+                    <h1>Artificial Intelligence</h1>
+                    <p>Sample text. Click to select the text box. <br> Click
+                        again or
+                        double click to <br> start editing the text.</p>
+                </div>
+            </div>
+        </section>
+        <section id="s4">
+            <div id="d13">
+                <img src="rpic.9.jpg" width="100%">
+            </div>
+            <div id="d14">
+                <div class="d15">
+                    <h1>01</h1>
+                    <h2>Future</h2>
+                    <p>Sample text. Click to select the text box. <br> Click
+                        again or
+                        double <br> click to start editing the text.</p>
+                </div>
+                <div class="d15">
+                    <h1>02</h1>
+                    <h2>Crypto basics</h2>
+                    <p>Sample text. Click to select the text box. <br> Click
+                        again or
+                        double <br> click to start editing the text.</p>
+                </div>
+                <div class="d15">
+                    <h1>03</h1>
+                    <h2>Courses</h2>
+                    <p>Sample text. Click to select the text box. <br> Click
+                        again or
+                        double <br> click to start editing the text.</p>
+                </div>
+                <div class="d15">
+                    <h1>04</h1>
+                    <h2>Support</h2>
+                    <p>Sample text. Click to select the text box. <br> Click
+                        again or
+                        double <br> click to start editing the text.</p>
+                </div>
+
+            </div>
+            <div id="d16">
+
+            </div>
+            <div id="d17">
+                <h1>AI & Digital Platform</h1><br>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum <br> dolore eu fugiat nulla pariatur. Excepteur
+                    sint
+                    occaecat cupidatat...</p><br>
+                <button id="b2">LEARN MORE</button>
+            </div>
+            <div id="d18">
+                <img src="rpic10.jpg" width="100%">
+            </div>
+
+        </section>
+        <br><br><br><br><br><br><br><br><br>
+        <section id="s5">
+            <h1>Essential 8 Emerging Technologies</h1>
+            <div id="d19">
+                <div class="d20">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Minima eos est, dignissimos, esse autem tenetur illum
+                        nesciunt suscipit sint quae quia voluptates velit in
+                        doloribus sequi itaque earum dolores consequuntur.
+                        Dolorum, asperiores quia exercitationem molestias dolore
+                        officia minima corporis suscipit quam nemo fugit,
+                        aliquid iste sunt doloremque, autem omnis facere?</p>
+                    <button class="b3">READ MORE</button> 
+                </div>
+                <div class="d20">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad nobis doloremque voluptates accusantium mollitia,
+                        fugiat aperiam veniam corrupti dolor modi blanditiis
+                        voluptate odit ullam suscipit error ex sit repellendus
+                        illo amet doloribus perferendis ea? Sunt, sequi vitae,
+                        eveniet dolor tenetur harum omnis distinctio incidunt,
+                        ex quasi consectetur iste totam placeat.</p>
+                    <button class="b3">READ MORE</button> 
+                </div>
+                <div class="d20">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Enim quidem assumenda quisquam sint, nemo qui, harum eum
+                        deleniti vero, explicabo doloremque pariatur tempore.
+                        Ducimus quasi adipisci doloremque ea illum, ab
+                        laudantium fugit soluta sit natus molestiae accusantium
+                        voluptate asperiores suscipit amet libero et optio ex
+                        quidem alias obcaecati error deleniti.</p>
+                    <button class="b3">READ MORE</button> 
+                </div>
+            </div>
+        </section>
+        <section id="s6">
+            <h1>Technology Of The Future</h1>
+            <div id="d21">
+
+            </div>
+            <img src="rpic11.jpg">
+            <div id="d22">
+                <h2>Online Classes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </section>
+        <section id="s7">
+            <img id="i3" src="rpic12.jpg" >
+            <div id="d23">
+                <h1>Join our newsletter</h1>
+                <form id="f1">
+                    <input type="email" placeholder=" Enter a Valid Email address" required>
+                    <button id="b4" type="submit">NOTIFY ME</button>
+                </form>
+            </div>
+            <div id="d24">
+                <h1>follow us</h1>
+                <div id="d25">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+
+                </div>
+
+            </div>
+        </section>
+
+    </body>
+</html>
